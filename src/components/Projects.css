@@ -1,0 +1,119 @@
+.projects {
+  background: var(--ink);
+  padding: 110px clamp(20px, 6vw, 64px);
+}
+
+.projects__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.projects__heading {
+  color: var(--text-light);
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 600;
+  margin-bottom: 44px;
+}
+
+.projects__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.project-card {
+  background: var(--ink-soft);
+  border: 1px solid var(--ink-line);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--text-light-dim);
+  transform: translateY(-3px);
+}
+
+.project-card--large {
+  grid-column: span 3;
+  padding: 42px;
+}
+
+.project-card--medium {
+  grid-column: span 3 / span 3;
+}
+
+.project-card--small {
+  grid-column: span 3 / span 3;
+}
+
+@media (min-width: 860px) {
+  .project-card--large {
+    grid-column: span 3;
+  }
+  .project-card--medium {
+    grid-column: span 2;
+  }
+  .project-card--small {
+    grid-column: span 1;
+  }
+}
+
+.project-card__tags {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.project-card__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  color: var(--text-light-dim);
+}
+
+.project-card__dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.project-card__title {
+  color: var(--text-light);
+  font-size: 21px;
+  font-weight: 600;
+  max-width: 42ch;
+}
+
+.project-card--large .project-card__title {
+  font-size: 26px;
+}
+
+.project-card__desc {
+  color: var(--text-light-dim);
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 70ch;
+}
+
+.project-card__metric {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--mint);
+  border-left: 2px solid var(--mint);
+  padding-left: 12px;
+}
+
+.project-card__link {
+  margin-top: auto;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-light);
+  padding-top: 6px;
+}

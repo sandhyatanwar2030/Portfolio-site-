@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px clamp(20px, 6vw, 64px);
+  mix-blend-mode: difference;
+}
+
+.nav__mark {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 15px;
+  color: white;
+  letter-spacing: 0.02em;
+}
+
+.nav__links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav__link {
+  background: none;
+  border: none;
+  color: white;
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  font-weight: 500;
+  padding: 4px 0;
+}
+
+@media (max-width: 640px) {
+  .nav__links {
+    gap: 16px;
+  }
+  .nav__link {
+    font-size: 13px;
+  }
+}

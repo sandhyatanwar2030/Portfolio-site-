@@ -1,0 +1,72 @@
+.skills {
+  background: var(--paper);
+  padding: 110px clamp(20px, 6vw, 64px);
+}
+
+.skills__inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.skills__heading {
+  font-size: clamp(26px, 3vw, 36px);
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 44px;
+}
+
+.skills__groups {
+  display: grid;
+  gap: 26px;
+}
+
+.skills__group {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 20px;
+  align-items: baseline;
+  padding-bottom: 22px;
+  border-bottom: 1px solid var(--paper-line);
+}
+
+.skills__group:last-child {
+  border-bottom: none;
+}
+
+.skills__group-label {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  color: var(--text-dark-dim);
+}
+
+.skills__group-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.skills__pills {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.skills__pill {
+  font-size: 14.5px;
+  color: var(--text-dark);
+  background: var(--paper-soft);
+  border: 1px solid var(--paper-line);
+  border-radius: 20px;
+  padding: 7px 16px;
+}
+
+@media (max-width: 700px) {
+  .skills__group {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
