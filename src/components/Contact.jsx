@@ -1,7 +1,7 @@
 import './Contact.css'
 
 const links = [
-  { label: 'Email', value: 'your.email@example.com', href: 'mailto:your.email@example.com' },
+  { label: 'Email', value: 'sandhyatanwar2030@gmail.com', href: 'mailto:sandhyatanwar2030@gmail.com' },
   { label: 'GitHub', value: 'github.com/sandhyatanwar2030', href: 'https://github.com/sandhyatanwar2030' },
   {
     label: 'LinkedIn',
@@ -16,8 +16,8 @@ export default function Contact() {
       <div className="contact__inner">
         <h2 className="contact__heading">Let's talk data</h2>
         <p className="contact__body">
-          I'm looking for a first data science or analyst role. If you're hiring, or just
-          want to talk about counterfactual evaluation, reach out.
+          Driven by a passion for understanding the "why" behind the numbers. I leverage statistical modeling and causal inference to help companies measure true impact and optimize product strategies. Open to full-time opportunities and networking with fellow data peers.
+          Reach out at:
         </p>
         <div className="contact__links">
           {links.map((l) => (
