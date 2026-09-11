@@ -1,34 +1,8 @@
 import './Projects.css'
 
 const projects = [
-  {
-    id: 'reco',
-    size: 'large',
-    title: 'Recommendation System with Counterfactual Evaluation',
-    description:
-      "Built an implicit-feedback matrix factorization recommender on biased interaction logs, then evaluated it with IPS, SNIPS and Doubly Robust counterfactual estimators \u2014 the step that separates a model that looks good on paper from one that would actually hold up in an A/B test.",
-    metric: 'Naive evaluation overstated performance by 23 points \u2014 counterfactual methods closed that to within 2.',
-    tags: [
-      { label: 'Python', color: 'var(--cobalt)' },
-      { label: 'Causal Inference', color: 'var(--raspberry)' },
-      { label: 'Simulated A/B Test', color: 'var(--amber)' },
-    ],
-    link: 'https://github.com/sandhyatanwar2030',
-  },
-  {
-    id: 'llm',
-    size: 'medium',
-    title: 'LLM Text Summarization & QA System',
-    description:
-      'Fine-tuned BART and T5 for abstractive summarization and DistilBERT for extractive question-answering, then built a Streamlit app that puts the local models head-to-head with the Gemini API.',
-    metric: 'Compared cost, latency and quality to show when a local model beats an API call.',
-    tags: [
-      { label: 'NLP', color: 'var(--mint)' },
-      { label: 'Transformers', color: 'var(--cobalt)' },
-      { label: 'Streamlit', color: 'var(--amber)' },
-    ],
-    link: 'https://github.com/sandhyatanwar2030',
-  },
+
+
   {
     id: 'upi',
     size: 'medium',
@@ -41,7 +15,7 @@ const projects = [
       { label: 'Prophet', color: 'var(--cobalt)' },
       { label: 'Power BI', color: 'var(--amber)' },
     ],
-    link: 'https://github.com/sandhyatanwar2030',
+    link: 'https://github.com/sandhyatanwar2030/upi-demand-sensing',
   },
   {
     id: 'titanic',
@@ -54,20 +28,9 @@ const projects = [
       { label: 'Classification', color: 'var(--cobalt)' },
       { label: 'XGBoost', color: 'var(--raspberry)' },
     ],
-    link: 'https://github.com/sandhyatanwar2030',
+    link: 'https://github.com/sandhyatanwar2030/titanic-survival-prediction',
   },
-  {
-    id: 'road',
-    size: 'small',
-    title: 'Road Accident Analytics',
-    description:
-      'Reshaped a 307-column government accident dataset into a usable form, engineered a fatality-rate metric, and surfaced a few counter-intuitive patterns in where accidents turn fatal.',
-    tags: [
-      { label: 'EDA', color: 'var(--mint)' },
-      { label: 'Power BI', color: 'var(--amber)' },
-    ],
-    link: 'https://github.com/sandhyatanwar2030',
-  },
+
 ]
 
 export default function Projects() {
