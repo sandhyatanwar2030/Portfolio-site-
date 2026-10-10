@@ -2,6 +2,19 @@ import './Projects.css'
 
 const projects = [
 
+  {
+  tags: [
+    { label: "Excel", color: "red" },
+    { label: "Power Pivot", color: "blue" },
+    { label: "Solver", color: "yellow" },
+  ],
+  title: "SaaS Unit Economics & Scenario Planning Model",
+  description:
+    "Built an automated Excel model tracking MRR, churn rate and LTV/CAC across customer tiers, using Power Query for data prep and a Power Pivot data model with DAX measures for each tier.",
+  highlight: "Solver + 2-way sensitivity tables simulating cash-runway impact across 5+ churn scenarios.",
+  link: "https://github.com/sandhyatanwar2030/...", // or the file/repo link
+}
+
 
   {
     id: 'upi',
