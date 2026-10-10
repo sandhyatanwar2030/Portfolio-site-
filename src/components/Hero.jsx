@@ -66,9 +66,7 @@ export default function Hero() {
           I build models that explain themselves, not just predict.
         </h1>
         <p className="hero__sub">
-          Final-year Computer Science student who moved from building websites to building
-          the systems that decide what those websites show. Currently sharpening SQL, Python
-          and Power BI, and looking for a first data science role at a product company.
+          Final-year Computer Engineering student passionate about data science, analytics, and building data-driven solutions. Skilled in Python, SQL, and Power BI, with a focus on uncovering insights, solving real-world problems, and supporting smarter business decisions. Eager to apply analytical thinking and technical skills in a data science role at a product-driven company.
         </p>
         <div className="hero__actions">
           <a
