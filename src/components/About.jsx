@@ -3,7 +3,7 @@ import './About.css'
 const stats = [
   { value: '81%', label: 'B.Tech aggregate' },
   { value: '2027', label: 'Graduating' },
-  { value: '5', label: 'Portfolio projects' },
+  { value: '3', label: 'Portfolio projects' },
   { value: '3', label: 'BI dashboards built' },
 ]
 
@@ -14,11 +14,7 @@ export default function About() {
         <div className="about__text">
           <h2 className="about__heading">From shipping pages to shipping predictions</h2>
           <p className="about__body">
-            I started out in web development, then moved into data science because I wanted
-            to work on the decisions behind a product, not just its interface. I'm a
-            final-year Computer Science student at The Technological Institute of Textiles
-            &amp; Sciences, Bhiwani, and I'm currently deepening my SQL, Python and Power BI
-            through a dedicated data science training program.
+            I'm a final-year Computer Engineering student at The Technological Institute of Textiles & Sciences, Bhiwani, with a strong interest in data analytics and intelligent, data-driven solutions. I enjoy working with Python, SQL, and Power BI to explore datasets, uncover meaningful patterns, and turn raw data into actionable insights. I'm continuously strengthening my technical skills through hands-on projects and specialized training in data science, with a focus on solving real-world problems through analytical thinking and technology.
           </p>
           <p className="about__body">
             My projects lean toward the parts of data science that are easy to skip as a
