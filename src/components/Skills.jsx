@@ -12,10 +12,6 @@ const groups = [
     items: [
       'Excel',
       'Pivot Tables',
-      'Power Query',
-      'Power Pivot',
-      'DAX',
-      'Solver',
       'Google Sheets',
       'Power BI',
       'Dashboarding',
