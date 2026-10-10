@@ -79,7 +79,7 @@ export default function Hero() {
           >
             See the projects
           </a>
-          <a className="hero__cta hero__cta--secondary" href="/resume.pdf" download>
+          <a className="hero__cta hero__cta--secondary" href="resume.pdf" download>
             Download resume
           </a>
         </div>
