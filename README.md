@@ -19,13 +19,13 @@ I'm a final-year B.Tech Computer Science student passionate about turning comple
 
 ### 💡 Featured Projects
 
-*   **[UPI Transaction Volume Forecasting System](https://github.com/SandhyaTanwar)**
+*   **[UPI Transaction Volume Forecasting System](https://github.com/sandhyatanwar2030/upi-demand-sensing)**
     *   Built an end-to-end forecasting pipeline utilizing historical NPCI data and Google Trends integration.
     *   Designed interactive **Power BI dashboards** to visualize transaction trends and predictive metrics.
 *   **[Real-Time Recommendation Engine Microservice](https://github.com/SandhyaTanwar)**
     *   Engineered a high-performance recommendation backend using **FastAPI**.
     *   Leveraged **Sentence-Transformers** and **FAISS** for lightning-fast vector similarity search and retrieval.
-*   **[Titanic Survival Prediction Pipeline](https://github.com/SandhyaTanwar)**
+*   **[Titanic Survival Prediction Pipeline](https://github.com/sandhyatanwar2030/titanic-survival-prediction)**
     *   Created an end-to-end machine learning solution integrating and evaluating **five distinct classification models** for robust survival prediction.
 
 ---
@@ -44,6 +44,6 @@ I'm a final-year B.Tech Computer Science student passionate about turning comple
 
 ### 🌐 Connect With Me
 
-*   **LinkedIn:** [https://www.linkedin.com/in/sandhya-tanwar-a6127b36a/](https://linkedin.com/in/sandhya-tanwar) *(Update with your link)*
+*   **LinkedIn:** [https://www.linkedin.com/in/sandhya-tanwar-a6127b36a/](https://linkedin.com/in/sandhya-tanwar) 
 
 *   **Email:** [sandhyatanwar2030@gmail.com](mailto:your.email@domain.com)
