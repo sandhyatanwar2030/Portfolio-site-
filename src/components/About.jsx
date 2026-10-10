@@ -12,7 +12,7 @@ export default function About() {
     <section className="about" id="about">
       <div className="about__inner">
         <div className="about__text">
-          <h2 className="about__heading">From shipping pages to shipping predictions</h2>
+          <h2 className="about__heading">Driven by Data. Focused on Impact.</h2>
           <p className="about__body">
             I'm a final-year Computer Engineering student at The Technological Institute of Textiles & Sciences, Bhiwani, with a strong interest in data analytics and intelligent, data-driven solutions. I enjoy working with Python, SQL, and Power BI to explore datasets, uncover meaningful patterns, and turn raw data into actionable insights. I'm continuously strengthening my technical skills through hands-on projects and specialized training in data science, with a focus on solving real-world problems through analytical thinking and technology.
           </p>
