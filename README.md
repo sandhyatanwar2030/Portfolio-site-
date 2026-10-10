@@ -1,51 +1,49 @@
-# Sandhya Tanwar — Portfolio
+# Hi there, I'm Sandhya Tanwar! 👋
 
-A React + Vite personal site.
+### 🚀 Data Scientist & Computer Science Undergraduate
 
-## Before you deploy — 2 things to fix
+I'm a final-year B.Tech Computer Science student passionate about turning complex data into actionable insights, building scalable machine learning pipelines, and developing efficient backend systems. 
 
-1. **Resume**: The "Download resume" button links to `/resume.pdf`. Add your actual
-   resume PDF at `public/resume.pdf` (just drop the file in the `public` folder,
-   keep the name `resume.pdf`), or change the link in `src/components/Hero.jsx`.
-2. **Email**: `src/components/Contact.jsx` has a placeholder email
-   (`your.email@example.com`). Swap in your real one.
+---
 
-You may also want to swap the "View code" links on each project card
-(currently all point to your GitHub profile) for the specific repo URL of
-each project, once those repos are public — edit `link` in
-`src/components/Projects.jsx`.
+### 🛠️ Tech Stack & Skills
 
-## Run it locally
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Languages** | Python, SQL, JavaScript, HTML/CSS |
+| **Data Science & ML** | NumPy, Pandas, Scikit-learn |
+| **Business Intelligence** | Power BI, NPCI Data Analytics |
+| **Developer Tools** | Git, GitHub, VS Code |
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Opens at http://localhost:5173
+### 💡 Featured Projects
 
-## Deploy to Vercel (free)
+*   **[UPI Transaction Volume Forecasting System](https://github.com/SandhyaTanwar)**
+    *   Built an end-to-end forecasting pipeline utilizing historical NPCI data and Google Trends integration.
+    *   Designed interactive **Power BI dashboards** to visualize transaction trends and predictive metrics.
+*   **[Real-Time Recommendation Engine Microservice](https://github.com/SandhyaTanwar)**
+    *   Engineered a high-performance recommendation backend using **FastAPI**.
+    *   Leveraged **Sentence-Transformers** and **FAISS** for lightning-fast vector similarity search and retrieval.
+*   **[Titanic Survival Prediction Pipeline](https://github.com/SandhyaTanwar)**
+    *   Created an end-to-end machine learning solution integrating and evaluating **five distinct classification models** for robust survival prediction.
 
-**Option A — via GitHub (recommended):**
-1. Push this folder to a new GitHub repository.
-2. Go to https://vercel.com, sign in with your GitHub account.
-3. Click "Add New" → "Project", select the repo.
-4. Vercel auto-detects Vite. Leave settings as default and click "Deploy".
-5. You'll get a live URL like `sandhya-tanwar-portfolio.vercel.app` in about a minute.
-6. Every time you push a change to GitHub, Vercel redeploys automatically.
+---
 
-**Option B — via Vercel CLI (no GitHub needed):**
-```bash
-npm install -g vercel
-vercel
-```
-Follow the prompts; it deploys directly from your machine.
+### 📊 GitHub Stats
 
-## Project structure
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=SandhyaTanwar&show_icons=true&theme=radical&hide_border=true" alt="Sandhya's GitHub Stats" />
+</p>
 
-```
-src/
-  components/   one file + one CSS file per section
-  App.jsx       assembles the page
-  index.css     global tokens (colors, fonts) and resets
-```
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SandhyaTanwar&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+</p>
+
+---
+
+### 🌐 Connect With Me
+
+*   **LinkedIn:** [https://www.linkedin.com/in/sandhya-tanwar-a6127b36a/](https://linkedin.com/in/sandhya-tanwar) *(Update with your link)*
+
+*   **Email:** [sandhyatanwar2030@gmail.com](mailto:your.email@domain.com)
