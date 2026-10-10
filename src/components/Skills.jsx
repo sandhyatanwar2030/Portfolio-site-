@@ -2,29 +2,37 @@ import './Skills.css'
 
 const groups = [
   {
-    label: 'Languages & querying',
+    label: 'Programming & Databases',
     color: 'var(--cobalt)',
-    items: ['Python', 'SQL'],
+    items: ['SQL', 'Python', 'SQLite'],
   },
   {
-    label: 'Data & machine learning',
+    label: 'Data Analytics & Visualization',
     color: 'var(--raspberry)',
-    items: ['Pandas', 'NumPy', 'scikit-learn', 'XGBoost', 'Prophet'],
+    items: [
+      'Excel',
+      'Pivot Tables',
+      'Power Query',
+      'Power Pivot',
+      'DAX',
+      'Solver',
+      'Google Sheets',
+      'Power BI',
+      'Dashboarding',
+      'Cohort & Funnel Analysis',
+      'EDA',
+      'Data Cleaning',
+    ],
   },
   {
-    label: 'NLP & LLMs',
-    color: 'var(--mint)',
-    items: ['Hugging Face Transformers', 'BART', 'T5', 'DistilBERT', 'Gemini API'],
-  },
-  {
-    label: 'Visualization & delivery',
+    label: 'Statistics & Machine Learning',
     color: 'var(--amber)',
-    items: ['Power BI', 'Streamlit', 'Gradio'],
+    items: ['Pandas', 'NumPy', 'SciPy', 'scikit-learn', 'XGBoost', 'Prophet'],
   },
   {
-    label: 'Tools',
-    color: 'var(--cobalt)',
-    items: ['Git', 'GitHub'],
+    label: 'Tools & Platforms',
+    color: 'var(--mint)',
+    items: ['Git', 'GitHub', 'Jupyter Notebook', 'Google Colab', 'Streamlit'],
   },
 ]
 
